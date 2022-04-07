@@ -2,13 +2,13 @@ lockfileVersion: 5.3
 
 specifiers:
   '@astrojs/tailwind': ^0.1.0
-  '@astrojs/vercel': ^0.0.2
-  astro: ^1.0.0-beta.4
+  '@astrojs/vercel': ^0.0.3-beta.1
+  astro: ^1.0.0-beta.5
 
 devDependencies:
   '@astrojs/tailwind': 0.1.0
-  '@astrojs/vercel': 0.0.2
-  astro: 1.0.0-beta.4
+  '@astrojs/vercel': 0.0.3-beta.1
+  astro: 1.0.0-beta.5
 
 packages:
 
@@ -97,8 +97,8 @@ packages:
       - ts-node
     dev: true
 
-  /@astrojs/vercel/0.0.2:
-    resolution: {integrity: sha512-pKK5eDp8+2FALwWgbb5dRMBWAsi9p4ZP2MxGSU1U8XSvmrPHCVFGWxMGBFPRISw/R7YgN8yp/Qv3jByJjdBS0g==}
+  /@astrojs/vercel/0.0.3-beta.1:
+    resolution: {integrity: sha512-LsuWIPcWo4PO0s7g6BAWgeHpNNx7OVZv38v04kAiHHrfzjh6mAwc37GVPqo2E+zPK0QTNNGDUnvVTdZYUnkP1w==}
     dependencies:
       '@astrojs/webapi': 0.11.0
       esbuild: 0.14.25
@@ -555,8 +555,8 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /astro/1.0.0-beta.4:
-    resolution: {integrity: sha512-FoPNufljNVKwECwyUXWR2XHHpuRpQ3hvftsYhc7WC0OaM+FV4DLo3C1FrE/SbLVg59qWBLKzJzl6Bwdvn9humA==}
+  /astro/1.0.0-beta.5:
+    resolution: {integrity: sha512-BzAsTPg+2VwmchtUkv9LthX7LVDq+sgLTzk5U3XfXqy6wTtexJ/RT99rC3Q2a4TyZqxm+Y/69i7fWmsdvf6p5A==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:

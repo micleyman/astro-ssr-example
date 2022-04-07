@@ -1,0 +1,168 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "@example/starter",
+      "version": "0.0.1",
+      "private": true,
+      "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview"
+      },
+      "devDependencies": {
+        "@astrojs/tailwind": "^0.1.0",
+        "@astrojs/vercel": "^0.0.3-beta.2",
+        "astro": "^1.0.0-beta.4"
+      }
+    },
+    "prefix": "/Users/michael/projects/astro-ssr"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/michael/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/michael/projects/astro-ssr/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/michael/projects/astro-ssr",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@astrojs/tailwind/0.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@astrojs/tailwind",
+      "rawSpec": "^0.1.0"
+    }
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/astro/1.0.0-beta.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "astro",
+      "rawSpec": "^1.0.0-beta.4"
+    }
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@astrojs/tailwind/0.1.0",
+    "requester": "/Users/michael/projects/astro-ssr",
+    "status": "found_in_store"
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@astrojs/tailwind/0.1.0",
+    "requester": "/Users/michael/projects/astro-ssr",
+    "status": "resolved"
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/astro/1.0.0-beta.4",
+    "requester": "/Users/michael/projects/astro-ssr",
+    "status": "found_in_store"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/astro/1.0.0-beta.4",
+    "requester": "/Users/michael/projects/astro-ssr",
+    "status": "resolved"
+  },
+  "10 error pnpm": {
+    "code": "ERR_PNPM_NO_MATCHING_VERSION",
+    "packageMeta": {
+      "name": "@astrojs/vercel",
+      "dist-tags": {
+        "latest": "0.0.3-beta.1",
+        "beta": "0.0.3-beta.1"
+      },
+      "versions": {
+        "0.0.2": {
+          "name": "@astrojs/vercel",
+          "version": "0.0.2",
+          "dependencies": {
+            "@astrojs/webapi": "^0.11.0",
+            "esbuild": "0.14.25"
+          },
+          "devDependencies": {
+            "astro": "0.26.1",
+            "astro-scripts": "0.0.2"
+          },
+          "dist": {
+            "integrity": "sha512-pKK5eDp8+2FALwWgbb5dRMBWAsi9p4ZP2MxGSU1U8XSvmrPHCVFGWxMGBFPRISw/R7YgN8yp/Qv3jByJjdBS0g==",
+            "shasum": "4a13a0339c2b57ba64db07aeed68340120be6c11",
+            "tarball": "https://registry.npmjs.org/@astrojs/vercel/-/vercel-0.0.2.tgz",
+            "fileCount": 15,
+            "unpackedSize": 15803,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIDKPu/FmYTKDzH9zF6zpQYZE76Uzjt2p1JFn6strhjBpAiA3yg+tN7DOsWcK5DulxAjJsXferw79jYpUAnm3NiTXkw=="
+              }
+            ],
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiSpL/ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrPOw/8CeteIdNsdSy8jEZl7Nz3QBEjeC2bdQ9QqHDygXwm4gjtT32M\r\nXtRBeGoqCl+XXmOC3ZEvCywamuST6DHW8/N7qTCgHj+7/HuHWNrLk+/w4ccd\r\n/WP+GDc71vyvSAiAYkWUU97KJJ9WwD7/n6TWbS9VK62WVdA20EhIxK1YO0xO\r\nGuyeTUBtvRBoA9Hix0y3lYBxkR0S12wGrGOJcWJ2tYlXq7+1y4pTAi25GCxq\r\nwUk3RXkayCyfi9jsciDghoOXqlKqJCRR7g/bPETT7vOsX0PO9GFY7Ct6ah1l\r\nu0RtCTUtPxQbG6l/dcrzkJViXBgcCg0uQhs7p9eCXOAakzhkDoyjLZTG/aQJ\r\ngtWJavJPX7MfsvcPFLsqp9cV8GsxqJ1tqBQ1imCplzMUHb1Dw62TJ7/quVoc\r\nzUQ3kplv2xiFc666k6JcgBVKht+pqhRwVe6EUxDHuY0DksdCPRnrdnumTLaN\r\nMl5eSv2EmXaqMtQvdC/1XxQwehPs8UEdSd2mbJ3zy3DO8bEvQNpA0ODfONg0\r\nUFNtt0DstFTx7bhmdxL3RHTfDAUr+yZMfr+5e/cMyqBtMLiLu55Q3+dkHofI\r\nV9J/eCmQjkT9mGrFBMdJJiDCCREEUWQDRiFzS5Id5MkVH2EI00z4BVQYURVq\r\nFYj5/syRPqXgENyIUELExBAPdg0bX1HHr/I=\r\n=5r7v\r\n-----END PGP SIGNATURE-----\r\n"
+          }
+        },
+        "0.0.3-beta.0": {
+          "name": "@astrojs/vercel",
+          "version": "0.0.3-beta.0",
+          "dependencies": {
+            "@astrojs/webapi": "^0.11.0",
+            "esbuild": "0.14.25"
+          },
+          "devDependencies": {
+            "astro": "workspace:*",
+            "astro-scripts": "workspace:*"
+          },
+          "dist": {
+            "integrity": "sha512-nMvQ6uiZL4c7HscRp6SdCvSP6P6iQsOeNM7vuwK0LETBgJlBSImLEdTZ5i/Rj/Q9ATD52NWglL3kicfKIfNlkA==",
+            "shasum": "7a389d56c242b598c28b005c0b067d61ca8ed189",
+            "tarball": "https://registry.npmjs.org/@astrojs/vercel/-/vercel-0.0.3-beta.0.tgz",
+            "fileCount": 14,
+            "unpackedSize": 19393,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIBsGGmtp8ESCiB1J4SAegrlS9aH7c4cmE9wNY9K0dO+IAiEA/zsA5//wwzR+X1QF0v4dyV7YuDPasShU2rQ5ulf6E80="
+              }
+            ],
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiTgmbACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq6rw/+PTaqRnlCTcXRjC4LuzVCganz+Ipb27uKoGbvGEmfF8NuIOl+\r\nHFQ0JGdWlpKRLpLyaHAuvc3fVj7oMkdmy38TUKTmVdhxQlrSm8puk5uYVpys\r\n/L7zZKnhNLiJCSDRHi2hyal9jrEdAReE/4qjm+/JvxKrE4rl1n4BvNlDWl2L\r\nVrWRxiCNKmX8LO0WTFSJ1gp3yu+ya+b+qyEcwcPtGJ3wF4tQ1fXvs4DKYbzX\r\nFxeEkVhrCy1jjVwxL1a24sr9+yFdRw9ZzjF4gb1F6I9w8XLadjr7ReVUis04\r\nKkgAAwfdiJgr6S2RThhDd1ICWd4twAzyqcLC/uc3IrweFWPZKR2qbPU1MbHd\r\nNvlDy9igxTo7DQj65J/Wz1o9DHZm0nJVxlEzTzC/6iF6P7lsYtLJnDYaLUje\r\nNlVOhbgCnrmnbT/r6C5hsczLSHsTvtly3Vv+f0IdLUtUAb2gyQbJHeVNbWpO\r\nTEi0cFDsIx+THYkcxu+fk08aORZnS1qKGNFdIV4N8mBaexVvMc0hbX29gE8z\r\nME3ikPjUfIjmQdCUCf7pWusXkIrWrIwogVmUCj/QVm+wj+tpq1eA8mz+5Bny\r\ny2KSXPlvigfMa6ZlYM3q1+SsRoU84pneHYGEDdf5KcQ+nMwO8fIs+QWFjod2\r\na9UhyyTd/3eybORIQNxbRFDB65rWRpTDwmw=\r\n=qT57\r\n-----END PGP SIGNATURE-----\r\n"
+          }
+        },
+        "0.0.3-beta.1": {
+          "name": "@astrojs/vercel",
+          "version": "0.0.3-beta.1",
+          "dependencies": {
+            "@astrojs/webapi": "^0.11.0",
+            "esbuild": "0.14.25"
+          },
+          "devDependencies": {
+            "astro": "workspace:*",
+            "astro-scripts": "workspace:*"
+          },
+          "dist": {
+            "integrity": "sha512-LsuWIPcWo4PO0s7g6BAWgeHpNNx7OVZv38v04kAiHHrfzjh6mAwc37GVPqo2E+zPK0QTNNGDUnvVTdZYUnkP1w==",
+            "shasum": "380f202bc053acc1ec82544d60d5136fb5d8d6dd",
+            "tarball": "https://registry.npmjs.org/@astrojs/vercel/-/vercel-0.0.3-beta.1.tgz",
+            "fileCount": 14,
+            "unpackedSize": 19760,
+            "signatures": [
+              {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQCnz1QRf5DtwE+xsSkfaacsiOLeOR/ALtzGJPBlqyDB1gIhALN83+9vRa6Ka4serB8/c4kjfLcXx7lRsPe8U+KWyEQX"
+              }
+            ],
+            "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiTzrbACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpIjg/+LeOY/q9V9WWWuvyjk3HyRavtZC1khN2lJlqxcA3mAcELp8EQ\r\nB9iewD6IaTI4lvRZVn5QAtQFaXNUdHre3eM1ahxyimzhrS5D5FcxLle2hyyD\r\nKqY/mEYAv5gjfszbvXlC/JjM9l0jAcX97P0Bd8HftD6e7LIjo06qf5wMANxM\r\n58+XYPEnXno402P+Ha32Yj6bz6sDei3e5GyQn3QjqR7aWuHxYFQuSS0lJ8nf\r\nSHoamgm3hp3ouMsvBkaLaq4aaTwIxdNz3r/PnB5W0Tx+Xa3wcl2zajNrhRf2\r\ndOI9olngmuhxuCoQnW/Nr+19N7rQAfg2/mf3wlVPXYZBoa4ZNt1p6FBy7zE4\r\nOItiInDLqU2OFa44+ifnIjIDjrdiu4QU5FP3nuHSnGNeyyXC/Qqk5qk/sULV\r\nNFPQM7tODhU05EHNmeVnAlTeemw5U6uQJHXh61o1TN31TdFU4yBHXcVrH9vS\r\nNb5oz40bREidOg7MP+NpfmXvaHCVc2iJ3L8f6XQ2pvBxxDm3EKIv/IGPYlx9\r\ns+bVw10F2zaTNHlp7cw1u1YlzYOrtHO7PGIthein9tov/nZaeBsx6l9N3GOv\r\nKPxdCz4YPB93zbEoxkmzCDpksHCPhzSId9x19YdYCHRk7pwKORSzX7uYHdO+\r\ngY4/lm5WVc/wfvndOblZ+zkPRMQ0SoSJsS4=\r\n=cFfD\r\n-----END PGP SIGNATURE-----\r\n"
+          }
+        }
+      },
+      "modified": "2022-04-07T19:45:19.397Z",
+      "cachedAt": 1649361521452
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "No matching version found for @astrojs/vercel@^0.0.3-beta.2",
+      "code": "ERR_PNPM_NO_MATCHING_VERSION",
+      "stack": "pnpm: No matching version found for @astrojs/vercel@^0.0.3-beta.2\n    at resolveNpm (/Users/michael/.nvm/versions/node/v16.13.1/lib/node_modules/pnpm/dist/pnpm.cjs:85933:15)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Object.resolve (/Users/michael/.nvm/versions/node/v16.13.1/lib/node_modules/pnpm/dist/pnpm.cjs:86117:34)\n    at async run (/Users/michael/.nvm/versions/node/v16.13.1/lib/node_modules/pnpm/dist/pnpm.cjs:74193:23)"
+    }
+  }
+}
