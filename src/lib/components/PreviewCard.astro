@@ -1,0 +1,19 @@
+---
+export interface Props {
+	post: any;
+}
+
+const { post } = Astro.props;
+const { frontmatter } = post;
+
+---
+
+<article class="post">
+	<div class="data">
+		<h2>{frontmatter.title}</h2>
+		<p class="description">
+			{frontmatter.description}
+			<a class="link" href={post.url} aria-label={`Read ${frontmatter.title}`}>Read</a>
+		</p>
+	</div>
+</article>
