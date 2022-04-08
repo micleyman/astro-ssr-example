@@ -1,0 +1,43 @@
+---
+
+import { getCommentsForPost, Comment } from '../db/comments.ts';
+import { forwardRequest } from '../util'
+
+const req = Astro.request
+
+const { postId } = Astro.props
+const comments = await getCommentsForPost(postId);
+
+let createdComment = null;
+if (req.method === "POST") {
+	createdComment = await forwardRequest<Comment>(req, `/posts/${postId}/comments`, { postId})
+}
+
+---
+
+<section>
+	<h3>Comments</h3>
+
+	<form action="" method="post">
+		<input name="title" type="text" />
+		<input name="content" type="text" />
+		<input type="submit" value="Submit" />
+	</form>
+	{createdComment && createdComment.title}
+
+	<ul class="mt-8">
+		{comments.map(comment => (
+			<li class="ml-8 mt-4">
+				<h4 class="font-bold">{comment.title}</h4>
+				<p>{comment.content}</p>
+			</li>
+		))}
+	</ul>
+</section>
+
+
+<style>
+	input[type="text"] {
+		@apply text-gray-700;
+	}
+</style>

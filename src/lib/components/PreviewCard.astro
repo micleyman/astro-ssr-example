@@ -8,12 +8,10 @@ const { frontmatter } = post;
 
 ---
 
-<article class="post">
-	<div class="data">
-		<h2>{frontmatter.title}</h2>
-		<p class="description">
-			{frontmatter.description}
-			<a class="link" href={post.url} aria-label={`Read ${frontmatter.title}`}>Read</a>
-		</p>
-	</div>
+<article class="post mb-4">
+	<h2 class="text-lg font-medium">{frontmatter.title}</h2>
+	<p class="description">
+		{frontmatter.description}
+		<a class="link block text-indigo-400 underline" href={post.url} aria-label={`Read ${frontmatter.title}`}>Read</a>
+	</p>
 </article>

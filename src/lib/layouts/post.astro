@@ -1,0 +1,18 @@
+---
+import Comments from '../components/Comments.astro'
+
+const { content } = Astro.props;
+---
+
+<html lang={content.lang || 'en'}>
+	<body>
+		<main class="wrapper">
+			<h2 class="title">{content.title}</h2>
+			<p class="description">{content.description}</p>
+			<article class="article">
+				<slot />
+			</article>
+			<Comments postId={content.id} client:idle />
+		</main>
+	</body>
+</html>
