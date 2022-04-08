@@ -2,7 +2,7 @@ import client, { Prisma } from './prisma'
 
 export type Comment = Prisma.CommentSelect
 
-export const getCommentsForPost = async (postId: string) => {
+export const getCommentsForPost = async (postId: number) => {
 	return client.comment.findMany({ where: { postId } })
 }
 

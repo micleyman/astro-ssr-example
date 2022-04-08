@@ -10,7 +10,7 @@ const comments = await getCommentsForPost(postId);
 
 let createdComment = null;
 if (req.method === "POST") {
-	createdComment = await forwardRequest<Comment>(req, `/posts/${postId}/comments`, { postId})
+	createdComment = await forwardRequest<Comment>(req, `/posts/${postId}/comments`)
 }
 
 ---
