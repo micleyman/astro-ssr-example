@@ -7,7 +7,7 @@
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"vercel-build": "pnpx prisma generate && prisma migrate deploy && pnpm build"
+		"vercel-build": "pnpx prisma generate && pnpx prisma migrate deploy && pnpm build"
 	},
 	"devDependencies": {
 		"@astrojs/tailwind": "^0.1.0",
